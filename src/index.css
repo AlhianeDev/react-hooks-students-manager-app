@@ -1,13 +1,178 @@
-body {
+* {
+
   margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  margin: 0;
+
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+
   -webkit-font-smoothing: antialiased;
+
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
+
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    
+}
+
+#root {
+
+  min-height: 98vh;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+
+}
+
+.container {
+
+  width: 100%;
+
+  padding: 0 15px;
+
+  margin: 0 auto;
+
+}
+
+@media screen and (min-width: 768px) {
+  
+  .container {
+
+    width: 790px;
+
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  
+  .container {
+
+    width: 970px;
+
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  
+  .container {
+
+    width: 1170px;
+
+  }
+
+}
+
+a {
+
+  text-decoration: none;
+
+}
+
+ul {
+
+  list-style: none;
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .nav-link {
+
+    padding: 0 5px !important;
+
+    font-size: 14px !important;
+
+  }
+
+  .brand {
+
+    font-size: 16px !important;
+
+    letter-spacing: normal !important;
+
+  }
+
+  table, thead, tbody, th, td, tr { 
+
+		display: block; 
+
+	}
+
+	thead tr { 
+
+		position: absolute;
+
+		top: -9999px;
+
+		left: -9999px;
+
+	}
+
+  tr { border: 1px solid #ccc; }
+
+	td { 
+
+		border: none !important;
+
+		border-bottom: 1px solid #eee !important; 
+
+		position: relative;
+
+		padding-left: 50% !important; 
+
+    text-align: left !important;
+
+	}
+
+  td button:first-of-type {
+
+    margin-left: 0 !important;
+
+  }
+
+	td:before { 
+
+		position: absolute;
+
+		top: 6px;
+
+		left: 6px;
+
+		width: 45%; 
+
+		padding-right: 10px; 
+
+		white-space: nowrap;
+
+	}
+
+	td:nth-of-type(1):before { content: "First Name"; }
+
+	td:nth-of-type(2):before { content: "Last Name"; }
+
+	td:nth-of-type(3):before { content: "Gender"; }
+
+	td:nth-of-type(4):before { content: "Country"; }
+
+	td:nth-of-type(5):before { content: "Actions"; }
+  
 }
