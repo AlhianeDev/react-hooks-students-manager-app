@@ -1,71 +1,109 @@
-# Getting Started with Create React App
+# # React Hooks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## * What's React Hooks ?
 
-In the project directory, you can run:
+---
 
-### `npm start`
+### - Hooks is a new feature addition in React version 16.8.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### - Hooks allow you to use React features without having to write class.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### - With Hooks, You will avoid the whole confusion with 'this' keyword.
 
-### `npm test`
+### - Create your own hooks allow you to reuse stateful logic
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## * Notes
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### - "Only call Hooks at the top level"
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### - "Only call Hooks from React Functions (Functions Components)"
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## * All right, Let's start with the the every built in Hook definition:
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### - useState is a React Hook that lets you add a state variable to your component.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### - useEffect Hook lets you perform side effects in Functional Components.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### - useReducer is a Hook that is used for state management.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### - useContext ~ Context provides a way to pass data through the component tree without having to pass props down manually at every level.
 
-## Learn More
+### - useCallback is a React Hook that lets you cache a function definition between re-renders.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### - useMemo is a React Hook that lets you cache the result of a calculation between re-renders.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### - You can also create your own custom hook that allow you to reuse stateful logic.
 
-### Code Splitting
+## *All right, This is a very simple students manager app to practice react hooks very well, Enjoy.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+# Students Manager
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## A simple react app to practice hooks
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+![Image not found!](https://github.com/AlhianeDev/react-hooks-students-manager-app/blob/main/readme-images/thumbnail.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- View the local installation in the [CONTRUBUTING.md.]()
 
-### Deployment
+***
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+#### Features:
 
-### `npm run build` fails to minify
+* User-friendly
+ 
+* Json Server For Storage Supported
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# react-hooks-students-manager-app" 
+* Responsive, on all devices
+
+* And more ....
+
+***
+
+#### Features to be added:
+
+* Register and Login Supported
+
+* Displays current Date and Time
+
+* Themes: Users can choose among different themes
+
+* And more ...
+
+***
+
+#### References:
+
+* React Docs: [React Docs](https://react.dev/)
+
+* Json Server: [Dummy Data Base](https://www.npmjs.com/package/json-server)
+
+* Color Palettes: [Color Palettes](https://colorhunt.co/)
+
+***
+
+#### WEBSITE DEMO:
+
+*   ![Image not found!](https://github.com/AlhianeDev/react-hooks-students-manager-app/blob/main/readme-images/img-1.png)
+    
+*   ![Image not found!](https://github.com/AlhianeDev/react-hooks-students-manager-app/blob/main/readme-images/img-2.png)
+    
+*   ![Image not found!](https://github.com/AlhianeDev/react-hooks-students-manager-app/blob/main/readme-images/img-3.png)
+
+* ![Image not found!](https://github.com/AlhianeDev/react-hooks-students-manager-app/blob/main/readme-images/img-4.png)
+
+#### Author:
+
+*   Alhiane Lahcen (Gmail: Alhiane Dev): [alhiane.linkedin@gmail.com](mailto:alhiane.linkedin@gmail.com)
+
+*   Alhiane Lahcen (LinkedIn: Alhiane Dev): [LinkedIn](https://www.linkedin.com/in/lahcen-alhiane-99564b2a6/)
