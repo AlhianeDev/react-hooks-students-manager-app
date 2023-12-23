@@ -2,8 +2,6 @@
 
 ## * What's React Hooks ?
 
----
-
 ### - Hooks is a new feature addition in React version 16.8.
 
 ### - Hooks allow you to use React features without having to write class.
@@ -14,15 +12,11 @@
 
 ## * Notes
 
----
-
 ### - "Only call Hooks at the top level"
 
 ### - "Only call Hooks from React Functions (Functions Components)"
 
 ## * All right, Let's start with the the every built in Hook definition:
-
----
 
 ### - useState is a React Hook that lets you add a state variable to your component.
 
@@ -40,15 +34,9 @@
 
 ## *All right, This is a very simple students manager app to practice react hooks very well, Enjoy.
 
----
-
 # Students Manager
 
----
-
 ## A simple react app to practice hooks
-
----
 
 ![Image not found!](https://github.com/AlhianeDev/react-hooks-students-manager-app/blob/main/readme-images/thumbnail.png)
 
@@ -99,6 +87,8 @@
 *   ![Image not found!](https://github.com/AlhianeDev/react-hooks-students-manager-app/blob/main/readme-images/img-3.png)
 
 * ![Image not found!](https://github.com/AlhianeDev/react-hooks-students-manager-app/blob/main/readme-images/img-4.png)
+
+***
 
 #### Author:
 
