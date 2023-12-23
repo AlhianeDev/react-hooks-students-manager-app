@@ -92,6 +92,6 @@
 
 #### Author:
 
-*   Alhiane Lahcen (Gmail: Alhiane Dev): [alhiane.linkedin@gmail.com](mailto:alhiane.linkedin@gmail.com)
+*   Alhiane Lahcen (Gmail: Lahcen Alhiane): [alhiane.linkedin@gmail.com](mailto:alhiane.linkedin@gmail.com)
 
-*   Alhiane Lahcen (LinkedIn: Alhiane Dev): [LinkedIn](https://www.linkedin.com/in/lahcen-alhiane-99564b2a6/)
+*   Alhiane Lahcen (LinkedIn: Lahcen Alhiane): [LinkedIn](https://www.linkedin.com/in/lahcen-alhiane-99564b2a6/)
