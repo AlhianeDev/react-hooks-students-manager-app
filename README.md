@@ -32,7 +32,7 @@
 
 ### - You can also create your own custom hook that allow you to reuse stateful logic.
 
-## *All right, This is a very simple students manager app to practice react hooks very well, Enjoy.
+## * All right, This is a very simple students manager app to practice react hooks very well, Enjoy.
 
 # Students Manager
 
