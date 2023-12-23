@@ -40,7 +40,7 @@
 
 ![Image not found!](https://github.com/AlhianeDev/react-hooks-students-manager-app/blob/main/readme-images/thumbnail.png)
 
-- View the local installation in the [CONTRUBUTING.md.]()
+- View the local installation in the [CONTRUBUTING.md.](https://github.com/AlhianeDev/react-hooks-students-manager-app/blob/main/CONTRUBUTING.md)
 
 ***
 
