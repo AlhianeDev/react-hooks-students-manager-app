@@ -212,7 +212,11 @@ function Form({ postData, student, putData }) {
 
             </div>
 
-            <button type='submit' style={ submitEl }>Add Student</button>
+            <button type='submit' style={ submitEl }>
+                
+                { student === undefined ? "Add Student" : "Update Student" }
+                
+            </button>
 
         </form>
 

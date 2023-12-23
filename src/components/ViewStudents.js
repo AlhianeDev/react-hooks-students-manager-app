@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 
 import { Link } from 'react-router-dom';
 
@@ -62,6 +62,8 @@ function ViewStudents() {
 
     const studentsContext = useContext(StudentsContext);
 
+    const [isDeleted, setIsDeleted] = useState(false);
+
     const deleteStudent = (id) => {
 
         axios.delete(`http://localhost:3000/students/${ id }`)
@@ -71,6 +73,8 @@ function ViewStudents() {
             console.log(resposne);
   
             studentsContext.dispatch({ type: "delete", payload: id });
+
+            setIsDeleted(!isDeleted);
   
         }).catch(error => {
   
@@ -94,7 +98,7 @@ function ViewStudents() {
   
         });
 
-    }, [studentsContext]);
+    }, [isDeleted]);
 
     return (
 
@@ -196,4 +200,4 @@ function ViewStudents() {
 
 }
 
-export default ViewStudents;
+export default React.memo(ViewStudents);
