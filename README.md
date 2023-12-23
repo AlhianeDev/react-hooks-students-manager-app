@@ -1,71 +1,97 @@
-# Getting Started with Create React App
+# # Hi, Azul, As-salamu alaykum
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## * What's React Hooks ?
 
-## Available Scripts
+### - Hooks is a new feature addition in React version 16.8.
 
-In the project directory, you can run:
+### - Hooks allow you to use React features without having to write class.
 
-### `npm start`
+### - With Hooks, You will avoid the whole confusion with 'this' keyword.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### - Create your own hooks allow you to reuse stateful logic
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## * Notes
 
-### `npm test`
+### - "Only call Hooks at the top level"
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### - "Only call Hooks from React Functions (Functions Components)"
 
-### `npm run build`
+## * All right, Let's start with the the every built in Hook definition:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### - useState is a React Hook that lets you add a state variable to your component.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### - useEffect Hook lets you perform side effects in Functional Components.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### - useReducer is a Hook that is used for state management.
 
-### `npm run eject`
+### - useContext ~ Context provides a way to pass data through the component tree without having to pass props down manually at every level.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### - useCallback is a React Hook that lets you cache a function definition between re-renders.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### - useMemo is a React Hook that lets you cache the result of a calculation between re-renders.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### - You can also create your own custom hook that allow you to reuse stateful logic.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## * All right, This is a very simple students manager app to practice react hooks very well, Enjoy.
 
-## Learn More
+# Students Manager
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## A simple react app to practice hooks
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Image not found!](https://github.com/AlhianeDev/react-hooks-students-manager-app/blob/main/readme-images/thumbnail.png)
 
-### Code Splitting
+- View the local installation in the [CONTRUBUTING.md.](https://github.com/AlhianeDev/react-hooks-students-manager-app/blob/main/CONTRUBUTING.md)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+***
 
-### Analyzing the Bundle Size
+#### Features:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* User-friendly
+ 
+* Json Server For Storage Supported
 
-### Making a Progressive Web App
+* Responsive, on all devices
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* And more ....
 
-### Advanced Configuration
+***
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### Features to be added:
 
-### Deployment
+* Register and Login Supported
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* Displays current Date and Time
 
-### `npm run build` fails to minify
+* Themes: Users can choose among different themes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# react-hooks-students-manager-app" 
+* And more ...
+
+***
+
+#### References:
+
+* React Docs: [React Docs](https://react.dev/)
+
+* Json Server: [Dummy Data Base](https://www.npmjs.com/package/json-server)
+
+* Color Palettes: [Color Palettes](https://colorhunt.co/)
+
+***
+
+#### WEBSITE DEMO:
+
+*   ![Image not found!](https://github.com/AlhianeDev/react-hooks-students-manager-app/blob/main/readme-images/img-1.png)
+    
+*   ![Image not found!](https://github.com/AlhianeDev/react-hooks-students-manager-app/blob/main/readme-images/img-2.png)
+    
+*   ![Image not found!](https://github.com/AlhianeDev/react-hooks-students-manager-app/blob/main/readme-images/img-3.png)
+
+* ![Image not found!](https://github.com/AlhianeDev/react-hooks-students-manager-app/blob/main/readme-images/img-4.png)
+
+***
+
+#### Author:
+
+*   Alhiane Lahcen (Gmail: Lahcen Alhiane): [alhiane.linkedin@gmail.com](mailto:alhiane.linkedin@gmail.com)
+
+*   Alhiane Lahcen (LinkedIn: Lahcen Alhiane): [LinkedIn](https://www.linkedin.com/in/lahcen-alhiane-99564b2a6/)
